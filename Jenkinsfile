@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   stages {
-    stage ('remove from DocumentRoot") {
+    stage ('remove from DocumentRoot') {
            steps {
              sh 'echo "asd" | sudo -S rm -f /var/www/html/*
            }
