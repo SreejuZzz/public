@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage ('remove from DocumentRoot') {
            steps {
-             sh 'echo "asd" | sudo -S rm -f /var/www/html/*
+             sh 'echo "asd" | sudo -S rm -f /var/www/html/*'
            }
     }
     stage ('copy to DocumentRoot') {
